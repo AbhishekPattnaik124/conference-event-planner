@@ -1,0 +1,95 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+#solar {
+    background-color: bisque;
+    text-align: center; /* Centers content horizontally */
+    padding: 10px 0; /* Adds spacing above and below */
+    border-radius: 5px;
+    
+}
+
+.topmenu {
+    display: inline-block; /* Aligns menu buttons inline */
+    color: black;
+    background-color: lightcyan;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 5px; /* Adds space between buttons */
+    padding: 5px 10px; /* Adds padding inside buttons */
+    font-size: 14px;
+    text-decoration: none; /* Removes underline */
+    font-family: sans-serif;
+}
+
+.topmenu:hover {
+    color: white;
+    background-color: lightpink;
+    text-decoration: underline;
+}
+
+#head {
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center; /* Centers the "SOLAR SYSTEM" text */
+    margin: 10px 0; /* Adds spacing */
+}
+#all-container-section{
+    grid: 3px;
+    padding: 2px;
+    display: flex;
+    display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px; /* Adds spacing between boxes */
+            flex-wrap: wrap;
+            flex-direction: column;
+}
+#fig1,#fig2{
+    float: left;
+    border: 2px;
+    justify-self: auto;
+    width: 150px;
+    
+}
+#p1,#p2{
+    float: right;
+    color: darkred;
+}
+#p3,#p4{
+    float: right;
+    color: black;
+}
+#leg1,#leg2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+#tb2{
+    float: right;
+}
+.b{
+    border-top-style: solid;
+    border-top-width: 25px;
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    display: flex;
+}
+#mercury{
+    border-top-color: green;
+    background-color: darkturquoise;
+}
+#Venus{
+    border-top-color: pink;
+    background-color: lightgoldenrodyellow;
+}
+
+
